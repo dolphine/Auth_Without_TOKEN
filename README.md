@@ -9,7 +9,9 @@ PS.需要配合 https://github.com/Ubiquiti-cn/auth#代码配置 一起使用
 ======
 
     git clone https://github.com/Ubiquiti-cn/Auth_Without_TOKEN.git auth_unifi
+    
     cd auth_unifi
+    
     git clone https://github.com/Ubiquiti-cn/auth.git guest
     
 #### 按照auth readme，配置好 `config.php`

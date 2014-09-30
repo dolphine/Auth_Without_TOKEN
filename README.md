@@ -2,7 +2,8 @@ Auth_Without_TOKEN
 ====================
 
 UniFi Controller 和 微信公众平台开发服务器不在同一台机器上时使用，适用LNMP 环境
-需要配合 https://github.com/Ubiquiti-cn/auth#代码配置 一起使用
+
+PS.需要配合 https://github.com/Ubiquiti-cn/auth#代码配置 一起使用
 
 安装使用方式
 ======

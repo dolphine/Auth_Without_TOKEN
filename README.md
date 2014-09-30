@@ -58,8 +58,12 @@ token 不变，在原URL 前加上本台UniFi Controller服务器访问地址
     
     http://www.demo.com/weixin/index.php
     
-本台服务器配置完后的外网访问IP为 115.115.115.115, 则修改成
+本台服务器配置完后的外网访问地址为 `115.115.115.115`或者 `weixin.ubnt.com.cn`, 则修改成
     
     http://115.115.115.115/www.demo.com/weixin/index.php
+
+或
+    
+    http://weixin.ubnt.com.cn/www.demo.com/weixin/index.php
     
 在原URL 前，加上UniFi Controller 的服务器地址

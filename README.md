@@ -48,3 +48,16 @@ PS.需要配合 https://github.com/Ubiquiti-cn/auth#代码配置 一起使用
 
 #### 重启nginx server
     sudo service nginx restart
+
+修改微信公众平台开发URL
+======
+
+token 不变，在原URL 前加上本台UniFi Controller服务器访问地址
+
+如原开发 URL 为 
+    http://www.demo.com/weixin/index.php
+    
+本台服务器配置完后的外网访问IP为 115.115.115.115, 则修改成
+    http://115.115.115.115/www.demo.com/weixin/index.php
+    
+在原URL 前，加上UniFi Controller 的服务器地址

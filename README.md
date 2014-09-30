@@ -16,6 +16,11 @@ PS.需要配合 https://github.com/Ubiquiti-cn/auth#代码配置 一起使用
     
 #### 按照auth readme，配置好 `config.php`
 
+    /* 微信 开发者中心->服务器配置 Token值 */
+    define('WECHAT_TOKEN', '');
+    
+`WECHAT_TOKEN` 为空，不要填写
+
 
 #### 此时文件目录
     --- www_document
